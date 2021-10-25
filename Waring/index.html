@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Code example guide</title>
+
+    <!-- Bootstrap CSS -->
+    <link href='https://unpkg.com/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet' />
+
+
+    <!-- CSS for this file -->
+    <style>
+        /* apply google fonts to specific styles */
+        h5,
+        h6,
+        .h5,
+        .h6 {
+            text-transform: uppercase;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        h5,
+        .h5 {
+            color: #df7a27 !important;
+            font-size: 1.2rem;
+        }
+
+        .h6,
+        h6 {
+            font-size: 0.9rem;
+        }
+
+        h5,
+        h6,
+        .h5,
+        .h6 {
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.6px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        .h1,
+        .h2,
+        .h3,
+        .h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            letter-spacing: -0.6px;
+        }
+
+        .display-1,
+        .display-2,
+        .display-3,
+        .display-4 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            letter-spacing: -1.2px;
+        }
+
+        .vh100 {
+            height: 100vh;
+        }
+
+        .box {
+            border-radius: 0 1rem 0 1rem;
+            background-color: #f7f7f7;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+
+        /* colors */
+        .red {
+            background-color: #670000;
+        }
+
+        .orange {
+            background-color: #df7a27;
+        }
+
+        .white-type {
+            color: #ffffff !important;
+        }
+
+
+        /* 1 VIEWPORT USING PX
+        
+        @media (max-width: 550px) {
+            p {
+                font-size: 10px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            p {
+                font-size: 16px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            p {
+                font-size: 24px;
+            }
+        }
+        */
+
+        /* 2 VIEWPORT USING REM 
+
+        html {
+            font-size: 14px;
+        }
+
+        @media (max-width: 550px) {
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        @media (min-width: 551px) {
+            p {
+                font-size: 1.5rem;
+            }
+        }
+        */
+
+
+        /* 3 VIEWPORT FLUID TEXT 
+
+        @media (min-width: 0px) {
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        @media (min-width: 400px) {
+            p {
+                font-size: calc(1rem + 1vw);
+            }
+        }
+
+        @media (min-width: 1001px) {
+            p {
+                font-size: 1.75rem;
+            }
+        }
+        */
+    </style>
+
+</head>
+
+<body>
+    <!-- FIRST ROW Content Card -->
+    <div class="container">
+        <h1> Content Card</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body bg-warning">
+                        <h5 class="card-title">Content 1</h5>
+                        <p>With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body bg-warning">
+                        <h5 class="card-title">Content 2</h5>
+                        <p>With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+    <!-- SECOND ROW Content Card -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+                    <img src="images/blue-monk.jpg" class="card-img-top" alt="blue">
+                    <div class="card-body bg-info">
+                        <p>Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+                    <img src="images/blue.jpg" class="card-img-top" alt="blue">
+                    <div class="card-body bg-info">
+                        <p>Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-12 col-md-4">
+                <div class="card">
+                    <img src="images/beagle.jpg" class="card-img-top" alt="blue">
+                    <div class="card-body bg-info">
+                        <p>Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+
+
+    <!-- JavaScript dependencies: first jQuery, then Popper.js, then Bootstrap JS -->
+    <script src='https://unpkg.com/jquery/dist/jquery.min.js'></script>
+    <script src='https://unpkg.com/popper.js/dist/umd/popper.min.js'></script>
+    <script src='https://unpkg.com/bootstrap/dist/js/bootstrap.min.js'></script>
+
+</body>
+
+</html>
